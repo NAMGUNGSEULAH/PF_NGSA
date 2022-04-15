@@ -244,20 +244,17 @@ header .inner .util .util-bottom img {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: -30px;
+    top: -20px;
     color: white;
 }
 
 #section2 .top-title.center {
-    top: -95px;
+    top: -100px;
 }
 
 #section2 .top-title.center-bottom {
-    top: -80px;
+    top: -70px;
 }
-
-#section2 h1 { font-size: 20px;}
-#section2 h2 { font-size: 12px; font-weight: 100;}
 
 #section2 .content .inner {
     position: absolute;
