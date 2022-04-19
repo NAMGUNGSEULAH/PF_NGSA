@@ -42,7 +42,8 @@ header .inner .gnb ul {
     display: flex; 
     justify-content: space-between;
     align-items: center;
-    width: 600px;
+    margin-left: 20px;
+    width: 640px;
     height: 100%;
     position: relative;
     
@@ -50,10 +51,18 @@ header .inner .gnb ul {
 header .inner .gnb ul li {
     font-size: 18px;
     font-weight: bold;
+    width: 110px;
+    text-align: center;
 } 
 header .inner .gnb ul li a { color: var(--dark-gray); font-weight: 500; } 
 
-header .inner .gnb ul li:hover a { color: var(--primary); font-weight: bold; }
+header .inner .gnb ul li:hover a { 
+    color: var(--primary); 
+    font-weight: bold; 
+    font-size: 17.5px;
+    width: 110px;
+    text-align: center;
+}
 
 header .inner .gnb ul li ul {
     padding-top: 28px;
